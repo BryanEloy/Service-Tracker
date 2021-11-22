@@ -11,3 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+label{
+  font-size: 1.3rem;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+h1{
+  margin-left: 2.5rem;
+  margin-top: -5rem;
+}
+.placeicon{
+  font-family: fontawesome;
+  font-size: 1.5rem;
+}
+
+.logo{
+  background-image: url(../src/Logo.png);
+  background-size: contain;
+  width: 160px;
+  height: 50px;
+  padding: 2rem;
+  background-repeat: no-repeat;
+  margin: 2rem;
+
+}
+
+.history{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+}
+.contain {
+  width: 160px;
+  height: 160px;
+  border: 2px solid;
+  overflow: scroll;
+}
+/*
+.bgSizeContain {
+  background-image: url(https://www.mozilla.org/media/img/logos/firefox/logo-quantum.9c5e96634f92.png);
+  background-size: contain;
+  width: 160px;
+  height: 160px;
+  border: 2px solid;
+  color: pink;
+  resize: both;
+  overflow: scroll;
+}*/
